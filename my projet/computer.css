@@ -1,0 +1,75 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.navber{
+    border-bottom: 2px rgba(71, 117, 216, 0.692) solid;
+    width: 100%;
+    height: auto;
+}
+
+.nav-logo{
+    text-align: left;
+
+}
+.nav-heading h1{
+    text-align: right;
+}
+.nav-manu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-manu a{
+    padding: 5px 10px;
+    margin: 10px;
+    background-color:transparent ;
+}
+.log-in{
+    display: block;
+    width: 80px;
+    height: 50px;
+}
+.log{
+    font-size: 18px;
+    background-color:#40868b;
+    text-align: right;
+    box-shadow: none;
+    border: none;
+    
+}
+        /* navber end */
+ 
+        .contynar{
+
+        }    
+        .contynar::after{
+            content: '';
+            clear: both;
+            display: table;
+        } 
+        .taitle h1{
+            font-size: 5.0rem;
+            background-color: gray;
+            width: 90%;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        .crad-1,.crad-2,.crad-3,.crad-4,.crad-5,.crad-6{
+            background-color: rgba(128, 128, 128, 0.719);
+            text-align: center;
+            width: 22%;
+           margin: 1% 5%;
+           border: 2px solid white;
+           border-radius: 0px 15px 0px 15px;
+        float: right;}
